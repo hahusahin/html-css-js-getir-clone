@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="front-end clone of a famous delivery company - Getir">
+    <title>Getir Clone</title>
+    <link rel="stylesheet" href="utilities.css">
+    <link rel="stylesheet" href="styles.css">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  </head>
+  <body>
+    <!-- Navbar -->
+    <section class="navbar">
+      <div class="container flex">
+        <nav class="services">
+          <ul>
+            <li><a href="#"><img src="./images/getir-icons/getir-icon.svg" alt="getir"></a></li>
+            <li><a href="#"><img src="./images/getir-icons/getir-food-icon.svg" alt="getir"></a></li>
+            <li><a href="#"><img src="./images/getir-icons/getir-more-icon.svg" alt="getir"></a></li>
+            <li><a href="#"><img src="./images/getir-icons/getir-water-icon.svg" alt="getir"></a></li>
+            <li><a href="#"><img src="./images/getir-icons/getir-locals-icon.svg" alt="getir"></a></li>
+          </ul>
+        </nav>
+        <nav class="login">
+          <ul>
+            <li><a class="btn btn-outline"><i class="fa-solid fa-globe fa-lg"></i><span>English (EN)</span></a></li></li>
+            <li><a class="btn btn-outline"><i class="fa-solid fa-user"></i><span>Login</span></a></li>
+            <li><a class="btn btn-outline"><i class="fa-solid fa-user-plus"></i><span>Sign Up</span></a></li>
+          </ul>
+        </nav>
+      </div>
+    </section>
+
+    <section class="hero">
+      <div class="slider">
+        <ul class="slides">
+          <li class="slide"><img src="images/hero1.jpg" alt="hero"></li>
+          <li class="slide"><img src="images/hero2.jpg" alt="hero"></li>
+          <li class="slide"><img src="images/hero3.jpg" alt="hero"></li>
+          <li class="slide"><img src="images/hero1.jpg" alt="hero"></li>
+        </ul>
+      </div>
+      <div class="container flex">
+        <div class="hero-left">
+          <img src="./images/hero-getir.svg" alt="">
+          <p class="">At your door in minutes</p>
+        </div>
+        <div class="hero-form card centered">
+          <p>Login or Register</p>
+          <div class="telephone">
+            <select name="countryCode" id="countryCode">
+              <option>+90</option>
+              <option>+1</option>
+              <option>+44</option>
+            </select>
+            <input type="text" placeholder="123 456 78 90">
+          </div>
+          <button class="btn btn-warning">Continue with phone number</button>
+        </div>
+      </div>
+    </section>
+
+    <section class="categories">
+      <div class="container">
+        <h4>Categories</h4>
+        <div class="grid">
+          <!-- Filled with jquery -->
+        </div>
+      </div>
+    </section>
+
+    <section class="promotions">
+      <div class="container">
+        <h4>Promotions</h4>
+        <div class="flex">
+          <img src="./images/promotions/promo1.jpeg" alt="" width="100%">
+          <img src="./images/promotions/promo2.jpeg" alt="" width="100%">
+        </div>
+      </div>
+    </section>
+
+    <section class="favorites">
+      <div class="container">
+        <h4>Favorites</h4>
+        <div class="grid">
+          <!-- Filled with jquery -->          
+      </div>
+    </section>
+
+    <section class="download">
+      <div class="container">
+        <div class="bg-image flex">
+          <div class="left">
+            <h2>Download Getir!</h2>
+            <p>Let us deliver your order to your door in minutes.</p>
+            <div class="store flex">
+              <a href="#"><img src="./images/download/appstore.svg" alt="appstore" width="160px" height="100%"></a>
+              <a href="#"><img src="./images/download/googleplay.svg" alt="googleplay" width="160px" height="100%"></a>
+              <a href="#"><img src="./images/download/appgallery.svg" alt="huawei" width="160px" height="100%"></a>
+            </div>
+          </div>
+          <div class="right">
+            <img src="./images/download/download2.png" alt="" width="100%">
+          </div>
+        </div>
+        
+      </div>
+    </section>
+
+    <section class="spot">
+      <div class="container grid">
+        <div class="card flex centered">
+          <img src="./images/spot/spot1.svg" alt="">
+          <p>A promotion for every order</p>
+          <p>At Getir, you can find a promotion for every order.</p>
+        </div>
+        <div class="card flex centered">
+          <img src="./images/spot/spot2.svg" alt="">
+          <p>At your door in minutes</p>
+          <p>Your order is at your door in minutes with Getir.</p>
+        </div>
+        <div class="card flex centered">
+          <img src="./images/spot/spot3.svg" alt="">
+          <p>Thousand kinds of happiness</p>
+          <p>At Getir, you can choose from thousands of varieties.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="footer">
+      <div class="container">
+        <div class="links grid">
+          <div class="flex">
+            <p>Download Getir!</p>
+            <a href="#"><img src="./images/download/appstore.svg" alt="appstore" width="160px" height="100%"></a>
+            <a href="#"><img src="./images/download/googleplay.svg" alt="googleplay" width="160px" height="100%"></a>
+            <a href="#"><img src="./images/download/appgallery.svg" alt="huawei" width="160px" height="100%"></a>
+          </div>
+          <div class="flex">
+            <p>Discover Getir</p>
+            <a href="#">About us</a>
+            <a href="#">Careers</a>
+            <a href="#">Technology Careers</a>
+            <a href="#">Contact us</a>
+            <a href="#">COVID-19 Announcement</a>
+            <a href="#">Social Responsibility Projects</a>
+          </div>
+          <div class="flex">
+            <p>Need help?</p>
+            <a href="#">FAQ</a>
+            <a href="#">Protecting Private Information</a>
+            <a href="#">Privacy Policy</a>
+            <a href="#">Terms & Conditions</a>
+            <a href="#">Cookie Policy</a>
+          </div>
+          <div class="flex">
+            <p>Become Our Business Partner</p>
+            <a href="#">Become a Franchisee</a>
+            <a href="#">Rent Your Warehouse</a>
+            <a href="#">Become a GetirFood Restaurant</a>
+            <a href="#">Become a GetirLocals Business</a>
+          </div>
+          <div class="flex">
+            <img src="./images/etbis.png" alt="etbis" width="75px">
+          </div>
+        </div>
+        <div class="bottom flex">
+          <div class="copyright">
+            <span>© 2022 Getir</span>
+            <a href="#">Information Society Services</a>
+          </div>
+          <div class="social flex">
+            <a href="#"><i class="fab fa-facebook fa-lg"></i></a>
+            <a href="#"><i class="fab fa-twitter fa-lg"></i></a>
+            <a href="#"><i class="fab fa-instagram fa-lg"></i></a>
+            <a href="#"><i class="fa-solid fa-globe fa-lg"></i>English (EN)</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <script src="index.js" charset="utf-8"></script>
+  </body>
+</html>
